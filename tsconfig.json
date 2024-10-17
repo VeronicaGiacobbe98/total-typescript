@@ -9,7 +9,19 @@
     "noUncheckedIndexedAccess": true,
     "esModuleInterop": true,
     "strict": true,
+    "noImplicitAny": true, 
+    "noFallthroughCasesInSwitch": true ,
     "skipLibCheck": true,
+    "declaration": true ,
+   
+"typeRoots": ["./node_modules/@types", "./src/@types"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ]
+
+
   },
   "include": [
     "src"
